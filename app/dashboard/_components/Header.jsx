@@ -15,16 +15,18 @@ function Header() {
     
     return (
     <div className='flex p-4 items-center justify-between bg-secondary shadow-sm'>
-        <Image src={''} width ={160} height ={80} alt="logo"/>
+        <Image src={'/logo.svg'} width ={100} height ={20} alt="logo"/>
 
-        <ul className='flex gap-8'>
+        <ul className='hidden md:flex gap-8'>
             <li className={`hover:text-primary hover:font-bold transition-all cursor-pointer
-            ${path== '/dashboard && text-primary font-bold'}`}
+            ${path== '/dashboard' && 'text-primary font-bold'}`}
             >Dashboard</li>
+            <li  className={`hover:text-primary hover:font-bold transition-all cursor-pointer
+            ${path== '/dashboard/resumecheck' && 'text-primary font-bold'}`}
+            >Resume check</li>
             <li className={`hover:text-primary hover:font-bold transition-all cursor-pointer
-            ${path== '/dashboard/resumecheck && text-primary font-bold'}`}>Resume check</li>
-            <li className={`hover:text-primary hover:font-bold transition-all cursor-pointer
-            ${path== '/dashboard/howitworks && text-primary font-bold'}`}>How it works?</li>
+            ${path== '/dashboard/howitworks' && 'text-primary font-bold'}`}
+            >How it works?</li>
         </ul>
         <UserButton/>
     </div>
