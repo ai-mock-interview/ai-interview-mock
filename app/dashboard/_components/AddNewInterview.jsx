@@ -1,4 +1,5 @@
 "use client"
+
 import React, { useState } from 'react'
 import {
     Dialog,
@@ -19,6 +20,7 @@ import { useUser } from '@clerk/nextjs';
 import moment from 'moment';
 import { db } from '@/utils/db';
 import MockInterview from '@/utils/schema';
+import { useRouter } from 'next/navigation';
 
 
 function AddNewInterview() {
@@ -29,7 +31,7 @@ function AddNewInterview() {
     const [loading, setloading]=useState(false);
     const {user}=useUser();
     const [jsonResponse, setJsonResponse] = useState(null);
-
+    const router=useRouter();
 
     const onSubmit=async(e)=>{
         setloading(true)
@@ -63,6 +65,7 @@ if(MockJsonResp){
 
         if(resp){
             setOpenDailog(false);
+            router.push('/dashboard/interview/'+resp[0]?.mockId)
         }
     }
     else{
