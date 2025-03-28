@@ -21,9 +21,9 @@ function Header() {
             <li className={`hover:text-primary hover:font-bold transition-all cursor-pointer
             ${path== '/dashboard' && 'text-primary font-bold'}`}
             >Dashboard</li>
-            <li  className={`hover:text-primary hover:font-bold transition-all cursor-pointer
+            {/* <li  className={`hover:text-primary hover:font-bold transition-all cursor-pointer
             ${path== '/dashboard/resumecheck' && 'text-primary font-bold'}`}
-            >Resume check</li>
+            >Resume check</li> */}
             <li className={`hover:text-primary hover:font-bold transition-all cursor-pointer
             ${path== '/dashboard/howitworks' && 'text-primary font-bold'}`}
             >How it works?</li>

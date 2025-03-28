@@ -21,6 +21,7 @@
     "clsx": "^2.1.1",
     "drizzle-kit": "^0.30.5",
     "drizzle-orm": "^0.41.0",
+    "framer-motion": "^12.6.2",
     "lucide-react": "^0.483.0",
     "mime-types": "^2.1.35",
     "moment": "^2.30.1",
