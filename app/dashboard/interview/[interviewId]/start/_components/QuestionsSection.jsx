@@ -16,7 +16,7 @@ const textToSpeech=(text)=>{
   
 return (
     mockInterviewQuestion?.length > 0 && (
-      <div className='p-5 border rounded-lg m-5'>
+      <div className='text-white p-5 border rounded-lg m-5'>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5'>
           {mockInterviewQuestion.map((question, index) => (
             <h2
