@@ -87,24 +87,24 @@ if(MockJsonResp){
                 <DialogTitle className="text-2xl">Tell us more about your Job Interviewing</DialogTitle>
                 <DialogDescription>
                     <form onSubmit={onSubmit}>
-                    <div>
+                    <div className='text-white'>
                             Add Details about your Job position/role, Job description and Years of Experience
                        
-                        <div className='mt-7 my-2'>
+                        <div className='text-black mt-7 my-2'>
                             <label>Job Role/Job Position</label>
-                            <Input className='mt-4' placeholder="Ex. Full Stack Developer" required
+                            <Input className='text-black mt-4' placeholder="Ex. Full Stack Developer" required
                             onChange={(event)=>setJobPosition(event.target.value)}/>
                         </div>
 
-                        <div className='my-3'>
+                        <div className='text-black my-3'>
                             <label>Job Description/Tech Stack (In Short)</label>
-                            <Textarea className='mt-4' placeholder="Ex.  ReactJs, NextJs, Java...." required 
+                            <Textarea className='text-black mt-4' placeholder="Ex.  ReactJs, NextJs, Java...." required 
                             onChange={(event)=>setjobDescription(event.target.value)}/>
                         </div>
 
-                        <div className='my-3'>
+                        <div className='text-black my-3'>
                             <label>Years of Experience</label>
-                            <Input className='mt-4' placeholder="Ex. 5" type="number" max="50" required
+                            <Input className=' text-black mt-4' placeholder="Ex. 5" type="number" max="50" required
                             onChange={(event)=>setjobExperience(event.target.value)}/>
                         </div>
 
