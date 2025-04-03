@@ -88,5 +88,5 @@ The easiest way to deploy this Next.js app is using **Vercel**:
 - [Interactive Next.js Tutorial](https://nextjs.org/learn) - Hands-on learning.
 
 ---
-**🔗 Repository:** [GitHub - YOUR-ORG/AI-Interview-App](https://github.com/YOUR-ORG/AI-Interview-App)  
+**🔗 Repository:** https://github.com/ai-mock-interview/ai-interview-mock
 💡 **Contributions are welcome!** Feel free to submit issues or PRs.
