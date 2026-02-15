@@ -1,4 +1,4 @@
-# AI MockInterview Application
+# AI Mock-Interview Application
 
 Welcome to the **AI MockInterview Application**! This is a Next.js project designed to provide an interactive interview experience powered by AI.
 
